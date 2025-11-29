@@ -19,7 +19,7 @@ git init
 git add .
 git commit -m "Initial blog setup"
 git branch -M main
-git remote add origin https://github.com/0ca/0ca.github.io.git
+git remote add origin git@github.com:0ca/0ca.github.io.git
 git push -u origin main
 ```
 
