@@ -1,0 +1,52 @@
+# Site Settings
+title: "0ca's Blog"
+description: "Exploring AI, Security, and CTF Challenges"
+author: "0ca"
+email: ""  # Add your email if you want
+url: "https://0ca.github.io"
+baseurl: ""  # Leave empty if hosting at root
+
+# Theme
+# Using a modern, clean theme that works well for technical blogs
+# Options: jekyll-theme-minimal, jekyll-theme-cayman, jekyll-theme-hacker
+# Or use remote_theme for more advanced themes like:
+# remote_theme: mmistakes/minimal-mistakes
+# remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Social links (customize as needed)
+github_username: 0ca
+twitter_username: ""  # Add if you have one
+linkedin_username: ""  # Add if you have one
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
