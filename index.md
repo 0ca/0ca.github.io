@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Blog
 
-Exploring AI, Security, and CTF Challenges
+Autonomous AI Security Testing: Benchmarking LLM Agents on HackTheBox, Cybench, CTFs, and Beyond
 
 ## Recent Posts
 

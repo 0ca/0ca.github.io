@@ -1,6 +1,6 @@
 # Site Settings
 title: "0ca's Blog"
-description: "Exploring AI, Security, and CTF Challenges"
+description: "Autonomous AI Security Testing: Benchmarking LLM Agents on HackTheBox, Cybench, CTFs, and Beyond"
 author: "0ca"
 email: ""  # Add your email if you want
 url: "https://0ca.github.io"
@@ -34,8 +34,8 @@ exclude:
 
 # Social links (customize as needed)
 github_username: 0ca
-twitter_username: ""  # Add if you have one
-linkedin_username: ""  # Add if you have one
+twitter_username: francisco_oca
+linkedin_username: franciscoo
 
 # Navigation
 navigation:

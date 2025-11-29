@@ -23,6 +23,8 @@ With recent advancements in LLM technology, I believe that within the next few y
 
 ## Connect
 
+- X (Twitter): [@francisco_oca](https://x.com/francisco_oca)
+- LinkedIn: [franciscoo](https://www.linkedin.com/in/franciscoo/)
 - GitHub: [@0ca](https://github.com/0ca)
 - BoxPwnr Repository: [BoxPwnr](https://github.com/0ca/BoxPwnr)
 - BoxPwnr Attempts: [BoxPwnr-Attempts](https://github.com/0ca/BoxPwnr-Attempts)
