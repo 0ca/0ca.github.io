@@ -12,7 +12,7 @@ baseurl: ""  # Leave empty if hosting at root
 # Or use remote_theme for more advanced themes like:
 # remote_theme: mmistakes/minimal-mistakes
 # remote_theme: cotes2020/jekyll-theme-chirpy
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
