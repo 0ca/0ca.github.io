@@ -28,31 +28,31 @@ All solving attempts are published with:
 I already had HTB CTF support in BoxPwnr for a while, allowing autonomous challenge solving with a simple command. However, this CTF required MCP (Model Context Protocol) for container management and flag submission, so I adapted BoxPwnr's `htb_ctf_client.py` to support MCP calls for starting containers and submitting flags. When the CTF started, I distributed 36 challenges across 6 parallel runners (EC2 machines), each with a different OpenRouter account using the free **x-ai/grok-4.1-fast** model.
 
 **8 challenges solved**:
-- **The Paper General's Army** - Coding - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/The%20Paper%20General%27s%20Army/traces/20251120_181743/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/The%20Paper%20General%27s%20Army/traces/20251120_181743))
-- **Drumming Shrine** - Coding - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Drumming%20Shrine/traces/20251120_170850/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Drumming%20Shrine/traces/20251120_170850))
-- **Fivefold Door** - Coding - Medium ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Fivefold%20Door/traces/20251120_173153/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Fivefold%20Door/traces/20251120_173153))
-- **Blade Master** - Coding - Hard ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1))
-- **Stones** - Crypto - Medium ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Stones/traces/20251120_171156/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Stones/traces/20251120_171156))
-- **IronheartEcho** - Reversing - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/IronheartEcho/traces/20251120_180819/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/IronheartEcho/traces/20251120_180819))
-- **ForgottenVault** - Reversing - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/ForgottenVault/traces/20251120_173644/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/ForgottenVault/traces/20251120_173644))
-- **Odayaka Waters** - Secure Coding - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Odayaka%20Waters/traces/20251121_022515_attempt_2/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Odayaka%20Waters/traces/20251121_022515_attempt_2))
+- **The Paper General's Army** - Coding - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/The%20Paper%20General%27s%20Army/traces/20251120_181743/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/The%20Paper%20General%27s%20Army/traces/20251120_181743))
+- **Drumming Shrine** - Coding - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Drumming%20Shrine/traces/20251120_170850/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Drumming%20Shrine/traces/20251120_170850))
+- **Fivefold Door** - Coding - Medium ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Fivefold%20Door/traces/20251120_173153/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Fivefold%20Door/traces/20251120_173153))
+- **Blade Master** - Coding - Hard ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1))
+- **Stones** - Crypto - Medium ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Stones/traces/20251120_171156/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Stones/traces/20251120_171156))
+- **IronheartEcho** - Reversing - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/IronheartEcho/traces/20251120_180819/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/IronheartEcho/traces/20251120_180819))
+- **ForgottenVault** - Reversing - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/ForgottenVault/traces/20251120_173644/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/ForgottenVault/traces/20251120_173644))
+- **Odayaka Waters** - Secure Coding - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Odayaka%20Waters/traces/20251121_022515_attempt_2/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Odayaka%20Waters/traces/20251121_022515_attempt_2))
 
 ### Phase 2: SOTA Models via BoxPwnr
 
 **10 more challenges solved** with frontier models:
 
 **gemini-3-pro-preview**:
-- **Markov Scrolls** - AI - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Markov%20Scrolls/traces/20251120_132323/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Markov%20Scrolls/traces/20251120_132323))
-- **FuseJi book** - AI - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/FuseJi%20book/traces/20251120_133053/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/FuseJi%20book/traces/20251120_133053))
-- **Elliptic Contribution** - Crypto - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Elliptic%20Contribution/traces/20251120_130517/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Elliptic%20Contribution/traces/20251120_130517))
-- **Dathash or Not Dathash** - Crypto - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Dathash%20or%20Not%20Dathash/traces/20251120_123740/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Dathash%20or%20Not%20Dathash/traces/20251120_123740))
-- **Rice Field** - Pwn - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Rice%20Field/traces/20251120_133355/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Rice%20Field/traces/20251120_133355))
-- **Lanternfall** - Web - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Lanternfall/traces/20251120_122016/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Lanternfall/traces/20251120_122016))
+- **Markov Scrolls** - AI - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Markov%20Scrolls/traces/20251120_132323/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Markov%20Scrolls/traces/20251120_132323))
+- **FuseJi book** - AI - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/FuseJi%20book/traces/20251120_133053/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/FuseJi%20book/traces/20251120_133053))
+- **Elliptic Contribution** - Crypto - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Elliptic%20Contribution/traces/20251120_130517/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Elliptic%20Contribution/traces/20251120_130517))
+- **Dathash or Not Dathash** - Crypto - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Dathash%20or%20Not%20Dathash/traces/20251120_123740/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Dathash%20or%20Not%20Dathash/traces/20251120_123740))
+- **Rice Field** - Pwn - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Rice%20Field/traces/20251120_133355/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Rice%20Field/traces/20251120_133355))
+- **Lanternfall** - Web - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Lanternfall/traces/20251120_122016/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Lanternfall/traces/20251120_122016))
 
 **claude-sonnet-4-5-20250929**:
-- **The Claim That Broke The Oath** - Blockchain - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/The%20Claim%20That%20Broke%20The%20Oath/traces/20251120_182442/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/The%20Claim%20That%20Broke%20The%20Oath/traces/20251120_182442))
-- **Manual** - Forensics - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Manual/traces/20251120_180409/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Manual/traces/20251120_180409))
-- **Whisper Vault** - Pwn - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Whisper%20Vault/traces/20251120_195332_attempt_2/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Whisper%20Vault/traces/20251120_195332_attempt_2))
+- **The Claim That Broke The Oath** - Blockchain - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/The%20Claim%20That%20Broke%20The%20Oath/traces/20251120_182442/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/The%20Claim%20That%20Broke%20The%20Oath/traces/20251120_182442))
+- **Manual** - Forensics - Very Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Manual/traces/20251120_180409/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Manual/traces/20251120_180409))
+- **Whisper Vault** - Pwn - Easy ([Report](https://github.com/0ca/BoxPwnr-Traces/blob/main/htb_ctf/2712/Whisper%20Vault/traces/20251120_195332_attempt_2/report.md)) ([Replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Whisper%20Vault/traces/20251120_195332_attempt_2))
 - **kuromind** - Web - Hard (trace missing)
 
 ### Phase 3: Human-in-the-Loop with Cursor
@@ -87,7 +87,7 @@ BoxPwnr generates attack graphs showing the solution path for each challenge. He
 
 ![Attack Graph Example](/assets/img/blade-master-attack-graph.png)
 
-[▶️ Watch the full Blade Master replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?attempt=htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1)
+[▶️ Watch the full Blade Master replay](https://0ca.github.io/BoxPwnr-Traces/replayer/replay.html?trace=htb_ctf/2712/Blade%20Master/traces/20251121_094025_attempt_1)
 
 ## Unsolved Challenges
 
