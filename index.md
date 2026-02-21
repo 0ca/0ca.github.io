@@ -20,7 +20,7 @@ Autonomous AI Security Testing: Benchmarking LLM Agents on HackTheBox, Cybench, 
 ### Key Features
 - **Multiple Platforms**: Supports HTB, PortSwigger, CTFd, XBOW, Cybench, and more
 - **Multiple Strategies**: Different agentic architectures (chat, chat_tool, claude_code, hacksynth)
-- **Comprehensive Results**: Full conversation traces and statistics available in [BoxPwnr-Attempts](https://github.com/0ca/BoxPwnr-Attempts)
+- **Comprehensive Results**: Full conversation traces and statistics available in [BoxPwnr-Traces](https://github.com/0ca/BoxPwnr-Traces)
 
 ### Current Results
 - 🏆 **HTB Starting Point**: 92.0% completion rate (23/25 machines)
